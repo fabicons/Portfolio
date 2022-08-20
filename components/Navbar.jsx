@@ -15,7 +15,7 @@ const Navbar = () => {
 
 useEffect(() => {
 	if (
-		router.asPath === '/studybudz' ||
+		router.asPath === '/studyBudz' ||
 		router.asPath === '/saunter' 
 		// || router.asPath === '/'
 	) {
@@ -62,12 +62,12 @@ useEffect(() => {
 						height='50'
 					/>
 				</Link>
-				<div>
+				<div >
 					<ul 
 					style={{color: `${linkColor}`}}
-					className='hidden md:flex'>
+					className='hidden md:flex flex-auto'>
 						<Link href='/'>
-							<li className='ml10 text sm uppercase hover:border-b'>Home</li>
+							<li className='ml10 text sm uppercase hover:border-b '>Home</li>
 						</Link>
 						<Link href='/#about'>
 							<li className='ml10 text sm uppercase hover:border-b'>About</li>
