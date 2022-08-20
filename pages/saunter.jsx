@@ -27,7 +27,7 @@ function saunter() {
 					<h2>Overview</h2>
 					<p>
 						StudyBudz was a project during a one week project of the School of
-						code. Add extra text
+						code. Add extra text Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestiae facere ipsam ducimus sint eveniet nesciunt magnam veniam, quia iste minus natus accusantium. Beatae magni, veritatis sunt quasi officia totam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae nobis non tenetur sit totam labore necessitatibus dolor repudiandae tempora voluptates facilis nam sed eum consequuntur inventore, recusandae ea blanditiis reprehenderit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem laudantium maxime nesciunt distinctio, facere quibusdam ratione aut quis, odit facilis veniam deleniti sed in perferendis. Assumenda rem est fuga cum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. In reprehenderit, nisi explicabo aliquid vero molestiae et laborum facilis totam. Consequuntur maxime at vitae, sequi sunt odio recusandae. Nostrum, dignissimos facere.
 					</p>
 					<button className='px-8 py-2 mt-4 mr-8'>Demo</button>
 					<button className='px-8 py-2 mt-4'>Code</button>
