@@ -56,10 +56,10 @@ useEffect(() => {
 			<div className='flex justify-between items-center h-full px-2 2xl:px-16'>
 				<Link href='/'>
 					<Image
-						src='/../public/assets/navLogo.png'
+						src='/../public/fabi_png_trans.png'
 						alt='/'
-						width='125'
-						height='50'
+						width='90'
+						height='75'
 					/>
 				</Link>
 				<div >
