@@ -2,13 +2,10 @@ import React from 'react';
 import Image from 'next/image';
 import ContactImg from '../public/assets/contact.jpg';
 import Link from 'next/link';
-import {
-	FaLinkedin,
-	FaGithub,
-	AiOutlineMail,
-	BsFillPersonLinesFill,
-    HiOutlineChevronDoubleUp,
-} from 'react-icons/all';
+import { AiOutlineMail } from 'react-icons/ai';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
 function Contact() {
 	return (
@@ -41,7 +38,7 @@ function Contact() {
 								<p className='uppercase pt-8'>Connect With Me</p>
 								<div className='flex items-center justify-between py-4'>
 									<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-										<FaLinkedin />
+										<FaLinkedinIn />
 									</div>
 									<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
 										<FaGithub />

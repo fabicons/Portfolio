@@ -14,7 +14,7 @@ function Projects() {
             {/* PROJECTS WILL GO IN HERE. NOTE: IMPORT THE PROJECT FROM ASSETS AND INJECT IT IN THE "backgroundImg" property  FILL & UNCOMMENT*/}
                 {/* <ProjectItem title='Project Name' 
                 backgroundImg={} 
-                projectUrl='/projectURL'
+                projectUrl='/studyBudz'
                 />
                 <ProjectItem title='Project Name' 
                 backgroundImg={} 
