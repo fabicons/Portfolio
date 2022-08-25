@@ -67,7 +67,7 @@ useEffect(() => {
 					style={{color: `${linkColor}`}}
 					className='hidden md:flex flex-auto'>
 						<Link href='/'>
-							<li className='ml10 text sm uppercase hover:border-b '>Home</li>
+							<li className='ml10 text sm uppercase hover:border-b'>Home</li>
 						</Link>
 						<Link href='/#about'>
 							<li className='ml10 text sm uppercase hover:border-b'>About</li>
