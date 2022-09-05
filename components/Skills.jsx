@@ -118,14 +118,59 @@ function Skills() {
                     <div className='gird grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                            src='/../public/assets/skills/shopify.png' 
+                            src='/../public/assets/skills/vercel.png' 
                             alt='/' 
                             width='64px'
                             height='64px'
                             />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>Shopify</h3>
+                            <h3>Vercel</h3>
+                        </div>
+                    </div>
+                </div>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='gird grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image 
+                            src='/../public/assets/skills/netlify.png' 
+                            alt='/' 
+                            width='64px'
+                            height='64px'
+                            />
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>Netlify</h3>
+                        </div>
+                    </div>
+                </div>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='gird grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image 
+                            src='/../public/assets/skills/heroku.png' 
+                            alt='/' 
+                            width='64px'
+                            height='64px'
+                            />
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>Heroku</h3>
+                        </div>
+                    </div>
+                </div>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='gird grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image 
+                            src='/../public/assets/skills/vercel.png' 
+                            alt='/' 
+                            width='64px'
+                            height='64px'
+                            />
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>Vercel</h3>
                         </div>
                     </div>
                 </div>
