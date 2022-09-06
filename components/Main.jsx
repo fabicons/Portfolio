@@ -8,7 +8,7 @@ const Main = () => {
 		<div id='home ' className='w-full h-screen text-center'>
 			<div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
 				<div>
-					<p className='uppercase text-sm tracking-widest text-gray-600'>
+					<p className='uppercase text-m tracking-widest text-gray-600'>
 						LET&apos;S BUILD TOGETHER
 					</p>
 					<h1 className='py-4 text-gray-700'>
@@ -35,9 +35,9 @@ const Main = () => {
 							target='_blank'
 							rel='noopener noreferrer'
 						>
-						<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-							<FaGithub />
-						</div>
+							<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+								<FaGithub />
+							</div>
 						</a>
 						<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
 							<AiOutlineMail />

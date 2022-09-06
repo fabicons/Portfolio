@@ -1,11 +1,11 @@
-import React from 'react';
-import Image from 'next/image';
-import ContactImg from '../public/assets/contact.jpg';
-import Link from 'next/link';
-import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
+import React from 'react'
+import Image from 'next/image'
+import ContactImg from '../public/assets/contact.jpg'
+import Link from 'next/link'
+import { AiOutlineMail } from 'react-icons/ai'
+import { BsFillPersonLinesFill } from 'react-icons/bs'
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
+import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
 
 function Contact() {
 	return (
@@ -37,12 +37,24 @@ function Contact() {
 							<div>
 								<p className='uppercase pt-8'>Connect With Me</p>
 								<div className='flex items-center justify-between py-4'>
-									<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-										<FaLinkedinIn />
-									</div>
+									<a
+										href='https://www.linkedin.com/in/fabian-deckmann-fjaervik-9349b9153/'
+										target='_blank'
+										rel='noopener noreferrer'
+									>
+										<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+											<FaLinkedinIn />
+										</div>
+									</a>
+									<a
+										href='https://github.com/ffjaervik'
+										target='_blank'
+										rel='noopener noreferrer'
+									>
 									<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
 										<FaGithub />
 									</div>
+									</a>
 									<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
 										<AiOutlineMail />
 									</div>
@@ -96,18 +108,20 @@ function Contact() {
 										rows='10'
 									/>
 								</div>
-								<button className='w-full p-4 text-gray-100 mt-4'>Send Message</button>
+								<button className='w-full p-4 text-gray-100 mt-4'>
+									Send Message
+								</button>
 							</form>
 						</div>
 					</div>
 				</div>
-                <div className='flex- justify-center py-12'>
-                    <Link href='/'>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <HiOutlineChevronDoubleUp className='text-[#5651e5]' size={30}/>
-                        </div>
-                    </Link>
-                </div>
+				<div className='flex- justify-center py-12'>
+					<Link href='/'>
+						<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+							<HiOutlineChevronDoubleUp className='text-[#5651e5]' size={30} />
+						</div>
+					</Link>
+				</div>
 			</div>
 		</div>
 	)
