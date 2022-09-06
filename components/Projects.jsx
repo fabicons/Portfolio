@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import ProjectItem from './ProjectItem';
-import crypto from '../public/assets/projects/crypto.jpg';
-import netflix from '../public/assets/projects/netflix.jpg';
+import saunter from '../public/assets/projects/saunter.png';
+import studybudz from '../public/assets/projects/studybudz.png';
 
 function Projects() {
   return (
@@ -14,13 +14,13 @@ function Projects() {
             <h2 className='py-4'>What I&apos;ve Built </h2>
             <div className='grid md:grid-cols-2 gap-8'>
             {/* PROJECTS WILL GO IN HERE. NOTE: IMPORT THE PROJECT FROM ASSETS AND INJECT IT IN THE "backgroundImg" property  FILL & UNCOMMENT*/}
-                <ProjectItem title='StudyBudz' 
-                backgroundImg={crypto} 
-                projectUrl='/studyBudz'
-                />
                 <ProjectItem title='Saunter' 
-                backgroundImg={netflix} 
+                backgroundImg={saunter} 
                 projectUrl='/saunter'
+                />
+                <ProjectItem title='StudyBudz' 
+                backgroundImg={studybudz} 
+                projectUrl='/studyBudz'
                 />
                 {/* <ProjectItem title='Project Name' 
                 backgroundImg={} 

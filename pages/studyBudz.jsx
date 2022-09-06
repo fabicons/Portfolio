@@ -1,5 +1,5 @@
 import React from 'react'
-import crypto from '../public/assets/projects/crypto.jpg'
+import studyBudzImg from '../public/assets/projects/studybudz.png'
 import Image from 'next/image'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
@@ -13,7 +13,7 @@ function studyBudz() {
 					className='absolute z-1'
 					layout='fill'
 					objectFit='cover'
-					src={crypto}
+					src={studyBudzImg}
 					alt='/'
 				/>
 				<div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
@@ -23,11 +23,12 @@ function studyBudz() {
 			</div>
 			<div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
 				<div className='col-span-4'>
-					<p>StudyBudz</p>
-					<h2>Overview</h2>
+					<p className='mb-1'>StudyBudz</p>
+					<h2 className='mb-4'>Overview</h2>
 					<p>
-						StudyBudz was a project during a one week project of the School of
-						code. Add extra text
+						Study Budz is the result of the mid-term project of the School of
+						Code Bootcamp. The students where given 1 week (Mon - Fri) to come
+						up with a working product that relating to the brief.
 					</p>
 					<button className='px-8 py-2 mt-4 mr-8'>Demo</button>
 					<button className='px-8 py-2 mt-4'>Code</button>
@@ -45,21 +46,19 @@ function studyBudz() {
 							<p className='text-gray-600 py-2 flex items-center'>
 								<RiRadioButtonFill className='pr-1' /> JavaScript
 							</p>
-					
+
 							<p className='text-gray-600 py-2 flex items-center'>
 								<RiRadioButtonFill className='pr-1' /> Google API
 							</p>
 							<p className='text-gray-600 py-2 flex items-center'>
 								<RiRadioButtonFill className='pr-1' /> Zillow API
 							</p>
-						
 						</div>
 					</div>
 				</div>
-                <Link href='/#projects'>
-                <p className='underline cursor-pointer'>back</p>
-
-                </Link>
+				<Link href='/#projects'>
+					<p className='underline cursor-pointer'>back</p>
+				</Link>
 			</div>
 		</div>
 	)
