@@ -81,7 +81,7 @@ useEffect(() => {
 							</li>
 						</Link>
 						<Link href='/#contact'>
-							<li className='ml-10 text-lg uppercase hover:border-b'>Contact</li>
+							<li className='ml-10 mr-5 text-lg uppercase hover:border-b'>Contact</li>
 						</Link>
 					</ul>
 					{/* Burger Menu */}
