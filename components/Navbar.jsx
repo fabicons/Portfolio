@@ -105,9 +105,9 @@ useEffect(() => {
 					<div>
 						<div className='flex w-full items-center justify-between'>
 							<Image
-								src='/../public/assets/navLogo.png'
-								width='87'
-								height='35'
+								src='/../public/fabi_png_trans.png'
+								width='60'
+								height='60'
 								alt='/'
 							/>
 							<div
