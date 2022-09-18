@@ -55,7 +55,7 @@ useEffect(() => {
 		>
 			<div className='flex justify-between items-center h-full px-2 2xl:px-16'>
 				<Link href='/'>
-					<Image
+					<image
 						src='/../public/fabi_png_trans.png'
 						alt='/'
 						width='100'
