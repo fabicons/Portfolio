@@ -1,10 +1,11 @@
-import Image from 'next/image'
-import React, { useState, useEffect } from 'react'
-import Link from 'next/link'
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
-import { useRouter } from 'next/router'
+import Image from 'next/image';
+import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
+import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { useRouter } from 'next/router';
+import icon from '../public/fabi_png_trans.png';
 
 const Navbar = () => {
 	const [shadow, setShadow] = useState(false)
@@ -56,7 +57,7 @@ useEffect(() => {
 			<div className='flex justify-between items-center h-full px-2 2xl:px-16'>
 				<Link href='/'>
 					<Image
-						src='/public/fabi_png_trans.png'
+						src= {icon}
 						alt='/'
 						width='100'
 						height='85'
