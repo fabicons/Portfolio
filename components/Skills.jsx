@@ -1,7 +1,16 @@
 import React from 'react'
 import Image from 'next/image'
+import skills from '../public/assets/skills'
 
 function Skills() {
+	function importAll(r) {
+		let images = {};
+		r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+		return images;
+	  }
+	  
+	  const images = importAll(require.context('../public/assets/skills', false, /\.(png|jpe?g|svg)$/));
+	  
 	return (
 		<div id='skills' className='w-full lg:h-screen p-2'>
 			<div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
@@ -14,7 +23,7 @@ function Skills() {
 						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
-									src='/../public/assets/skills/html.PNG'
+									src={images['html.png']}
 									alt='/'
 									width='64px'
 									height='64px'
@@ -29,7 +38,7 @@ function Skills() {
 						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
-									src='/../public/assets/skills/css.png'
+									src={images['css.png']}
 									alt='/'
 									width='64px'
 									height='64px'
@@ -44,7 +53,7 @@ function Skills() {
 						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
-									src='/../public/assets/skills/javascript.png'
+									src={images['javascript.png']}
 									alt='/'
 									width='64px'
 									height='64px'
