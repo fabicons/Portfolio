@@ -13,7 +13,7 @@ function Skills() {
 					<div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
 						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
-								<Image
+								<img
 									src='/../public/assets/skills/html.png'
 									alt='/'
 									width='64px'
