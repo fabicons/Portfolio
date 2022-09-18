@@ -1,6 +1,20 @@
-import React from 'react'
-import Image from 'next/image'
-import skills from '../public/assets/skills'
+import React from 'react';
+import Image from 'next/image';
+import html from '../public/assets/skills/html.png';
+import css from '../public/assets/skills/css.png';
+import javascript from '../public/assets/skills/javascript.png';
+import react from '../public/assets/skills/react.png';
+import next from '../public/assets/skills/next.png';
+import node from '../public/assets/skills/node.png';
+import mongo from '../public/assets/skills/mongo.png';
+import tailwind from '../public/assets/skills/tailwind.png';
+import typescript from '../public/assets/skills/typescript.png';
+import figma from '../public/assets/skills/figma.png';
+import heroku from '../public/assets/skills/heroku.png';
+import github from '../public/assets/skills/github1.png';
+import netlify from '../public/assets/skills/netlify.png';
+import postgre from '../public/assets/skills/postgre.png';
+import vercel from '../public/assets/skills/vercel.png';
 
 function Skills() {
 // 	function importAll(r) {
@@ -23,7 +37,7 @@ function Skills() {
 						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
-									src={require('/../public/assets/skills/html.png')}
+									src={html}
 									alt='/'
 									width='64px'
 									height='64px'
@@ -38,7 +52,7 @@ function Skills() {
 						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
-									src='/../public/assets/skills/css.png'
+									src={css}
 									alt='/'
 									width='64px'
 									height='64px'
@@ -53,7 +67,7 @@ function Skills() {
 						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
-									src='/../public/assets/skills/javascript.png'
+									src={javascript}
 									alt='/'
 									width='64px'
 									height='64px'
@@ -68,7 +82,7 @@ function Skills() {
 						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
-									src='/../public/assets/skills/react.png'
+									src={react}
 									alt='/'
 									width='64px'
 									height='64px'
@@ -83,7 +97,22 @@ function Skills() {
 						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
-									src='/../public/assets/skills/tailwind.png'
+									src={next}
+									alt='/'
+									width='64px'
+									height='64px'
+								/>
+							</div>
+							<div className='flex flex-col items-center justify-center'>
+								<h3>Next.js</h3>
+							</div>
+						</div>
+					</div>
+					<div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
+							<div className='m-auto'>
+								<Image
+									src={tailwind}
 									alt='/'
 									width='64px'
 									height='64px'
@@ -98,22 +127,7 @@ function Skills() {
 						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
-									src='/../public/assets/skills/firebase.png'
-									alt='/'
-									width='64px'
-									height='64px'
-								/>
-							</div>
-							<div className='flex flex-col items-center justify-center'>
-								<h3>FIrebase</h3>
-							</div>
-						</div>
-					</div>
-					<div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
-							<div className='m-auto'>
-								<Image
-									src='/../public/assets/skills/github1.png'
+									src={github}
 									alt='/'
 									width='64px'
 									height='64px'
@@ -128,7 +142,7 @@ function Skills() {
 						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
-									src='/../public/assets/skills/vercel.png'
+									src={vercel}
 									alt='/'
 									width='64px'
 									height='64px'
@@ -143,7 +157,7 @@ function Skills() {
 						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
-									src='/../public/assets/skills/netlify.png'
+									src={netlify}
 									alt='/'
 									width='64px'
 									height='64px'
@@ -158,7 +172,7 @@ function Skills() {
 						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
-									src='/../public/assets/skills/heroku.png'
+									src={heroku}
 									alt='/'
 									width='64px'
 									height='64px'
@@ -173,7 +187,7 @@ function Skills() {
 						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
-									src='/../public/assets/skills/figma.png'
+									src={figma}
 									alt='/'
 									width='64px'
 									height='64px'
@@ -188,7 +202,7 @@ function Skills() {
 						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
-									src='/../public/assets/skills/postgre.png'
+									src={postgre}
 									alt='/'
 									width='64px'
 									height='64px'
@@ -203,7 +217,7 @@ function Skills() {
 						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
-									src='/../public/assets/skills/node.png'
+									src={node}
 									alt='/'
 									width='64px'
 									height='64px'
