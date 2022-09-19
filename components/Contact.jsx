@@ -51,16 +51,22 @@ function Contact() {
 										target='_blank'
 										rel='noopener noreferrer'
 									>
-									<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-										<FaGithub />
-									</div>
+										<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+											<FaGithub />
+										</div>
 									</a>
 									<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
 										<AiOutlineMail />
 									</div>
-									<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-										<BsFillPersonLinesFill />
-									</div>
+									<a
+										href='https://drive.google.com/file/d/1XpKpuT9o4HraVlVNFbgt-y1Er_qE3i3M/view?usp=sharing'
+										target='_blank'
+										rel='noopener noreferrer'
+									>
+										<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+											<BsFillPersonLinesFill />
+										</div>
+									</a>
 								</div>
 							</div>
 						</div>
