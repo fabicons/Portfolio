@@ -1,13 +1,14 @@
-import Image from 'next/image'
-import { useState, useEffect } from 'react'
-import Link from 'next/link'
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
-import { useRouter } from 'next/router'
-import icon from '../public/fabi_png_trans.png'
-import { useTheme } from 'next-themes'
-import { MoonIcon, SunIcon } from 'react-icons/hi'
+import Image from 'next/image';
+import { useState, useEffect } from 'react';
+import Link from 'next/link';
+import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { useRouter } from 'next/router';
+import icon from '../public/fabi_png_trans.png';
+import { useTheme } from 'next-themes';
+import { FiMoon, FiSun } from "react-icons/fi";
+
 
 const Navbar = () => {
 	const [shadow, setShadow] = useState(false)
@@ -26,21 +27,23 @@ const Navbar = () => {
 		const currentTheme = theme === 'system' ? systemTheme : theme
 
 		if (currentTheme === 'dark') {
+			console.log('dark')
 			return (
-				<SunIcon
-					className='h-6 w-6 text-gray-300'
+				<FiMoon
+					className= 'ml-10 mr-5 text-lg uppercase hover:border-b'
 					role='button'
 					onClick={() => setTheme('light')}
 				/>
 			)
 		} else {
+			console.log('light')
 			return (
-				<MoonIcon
-					className='h-6 w-6 text-gray-300'
+				<FiSun
+					className='ml-10 mr-5 text-lg uppercase hover:border-b hover:border-gray-500'
 					role='button'
 					onClick={() => setTheme('dark')}
 				/>
-			)
+			) 
 		}
 	}
 
@@ -76,7 +79,7 @@ const Navbar = () => {
 	return (
 		<>
 			<div className='flex justify-center items-center'>
-				{renderThemeChanger()}
+				
 			</div>
 			<div
 				style={{ backgroundColor: `${navbg}` }}
@@ -90,6 +93,11 @@ const Navbar = () => {
 					<Link href='/'>
 						<Image src={icon} alt='/' width='100' height='85' />
 					</Link>
+					{/* Theme Toggle */}
+					<div className='flex items-center'>
+					<h6> Toggle to {theme} theme</h6>
+					{renderThemeChanger()}
+					</div>
 
 					<div>
 						<ul
@@ -119,6 +127,7 @@ const Navbar = () => {
 									Contact
 								</li>
 							</Link>
+							
 						</ul>
 						{/* Burger Menu */}
 						<div onClick={handleNav} className='md:hidden'>
