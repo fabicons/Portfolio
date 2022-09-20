@@ -33,8 +33,8 @@ function Skills() {
 				</p>
 				<h2 className='py-4'>What I can Do</h2>
 				<div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
-					<div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
+					<div className='p-6 flex justify-center items-center shadow-lg border-2 dark:shadow-red-300 dark:border-2 dark:border-red-600 rounded-xl hover:scale-105 ease-in duration-300 '>
+						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
 									src={html}
@@ -48,8 +48,8 @@ function Skills() {
 							</div>
 						</div>
 					</div>
-					<div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
+					<div className='p-6 flex justify-center items-center shadow-lg dark:shadow-pink-400 dark:border-pink-400 dark:border-2 rounded-xl hover:scale-105 ease-in duration-300'>
+						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
 									src={css}
@@ -63,8 +63,8 @@ function Skills() {
 							</div>
 						</div>
 					</div>
-					<div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
+					<div className='p-6 flex justify-center items-center shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
 									src={javascript}
@@ -78,8 +78,8 @@ function Skills() {
 							</div>
 						</div>
 					</div>
-					<div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
+					<div className='p-6 flex justify-center items-center shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
 									src={react}
@@ -93,8 +93,8 @@ function Skills() {
 							</div>
 						</div>
 					</div>
-					<div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
+					<div className='p-6 flex justify-center items-center shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
 									src={next}
@@ -108,8 +108,8 @@ function Skills() {
 							</div>
 						</div>
 					</div>
-					<div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
+					<div className='p-6 flex justify-center items-center shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
 									src={tailwind}
@@ -123,8 +123,8 @@ function Skills() {
 							</div>
 						</div>
 					</div>
-					<div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
+					<div className='p-6 flex justify-center items-center shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
 									src={github}
@@ -138,8 +138,8 @@ function Skills() {
 							</div>
 						</div>
 					</div>
-					<div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
+					<div className='p-6 flex justify-center items-center shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
 									src={vercel}
@@ -153,8 +153,8 @@ function Skills() {
 							</div>
 						</div>
 					</div>
-					<div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
+					<div className='p-6 flex justify-center items-center shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
 									src={netlify}
@@ -168,8 +168,8 @@ function Skills() {
 							</div>
 						</div>
 					</div>
-					<div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
+					<div className='p-6 flex justify-center items-center shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
 									src={heroku}
@@ -183,8 +183,8 @@ function Skills() {
 							</div>
 						</div>
 					</div>
-					<div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
+					<div className='p-6 flex justify-center items-center shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
 									src={figma}
@@ -198,8 +198,8 @@ function Skills() {
 							</div>
 						</div>
 					</div>
-					<div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
+					<div className='p-6 flex justify-center items-center shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
 									src={postgre}
@@ -213,8 +213,8 @@ function Skills() {
 							</div>
 						</div>
 					</div>
-					<div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-						<div className='gird grid-cols-2 gap-4 justify-center items-center'>
+					<div className='p-6 flex justify-center items-center shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
 									src={node}

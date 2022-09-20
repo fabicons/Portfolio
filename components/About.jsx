@@ -38,7 +38,7 @@ const About = () => {
 						a career as a development.
 					</p>
 				</div>
-				<div className='w-full h-auto m-auto shadow-xl shadow-gray-400 dark:shadow-gray-600 dark:bg-gray-500 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+				<div className='w-full h-auto m-auto shadow-xl shadow-gray-400 dark:shadow-gray-600 dark:bg-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
 					<Image src={AboutImage} className='rounded-xl' alt='/' />
 				</div>
 			</div>
