@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 function ProjectItem({ title, tech, backgroundImg, projectUrl }) {
 	return (
-		<div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]'>
+		<div className='relative flex items-center justify-center h-auto w-full shadow-lg shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff] dark:hover:bg-gradient-to-r dark:from-red-500 dark:to-red-800'>
 			<Image
 				className='rounded-xl group-hover:opacity-10'
 				src={backgroundImg}
