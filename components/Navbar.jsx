@@ -1,13 +1,13 @@
-import Image from 'next/image'
-import { useState, useEffect } from 'react'
-import Link from 'next/link'
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
-import { useRouter } from 'next/router'
-import icon from '../public/fabi_png_trans.png'
-import { useTheme } from 'next-themes'
-import { FiMoon, FiSun } from 'react-icons/fi'
+import Image from 'next/image';
+import { useState, useEffect } from 'react';
+import Link from 'next/link';
+import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { useRouter } from 'next/router';
+import icon from '../public/fabi_png_trans.png';
+import { useTheme } from 'next-themes';
+
 
 const Navbar = () => {
 	const [shadow, setShadow] = useState(false)
@@ -28,7 +28,7 @@ const Navbar = () => {
 		if (currentTheme === 'dark') {
 			console.log('dark')
 			return (
-				<div className=' flex relative justify-center items-center'>
+				<div className=' flex relative justify-center items-center '>
 				<button className='px-2 py-1 text-base' onClick={() => setTheme('light')}>
 					{' '}
 					Toggle Light Mode{' '}					
