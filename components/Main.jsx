@@ -11,11 +11,11 @@ const Main = () => {
 					<p className='uppercase tracking-widest  text-gray-600 dark:text-gray-400'>
 						LET&apos;S BUILD TOGETHER
 					</p>
-					<h1 className='py-4 text-gray-700 dark:text-gray-300'>
+					<h1 className='py-4 text-gray-700 dark:text-gray-200'>
 						Hi, I&apos;m <span className='text-[#5651e5] dark:text-red-500'>Fabian </span>
 					</h1>
-					<h1 className='py-4 text-gray-700 dark:text-gray-300'>A Full-Stack Developer</h1>
-					<p className='py-4 text-gray-600 dark:text-gray-400 max-w-[70%] m-auto '>
+					<h1 className='py-4 text-gray-700 dark:text-gray-200'>A Full-Stack Developer</h1>
+					<p className='py-4 text-gray-600 dark:text-gray-300 max-w-[70%] m-auto '>
 						I&apos;m a full-stack developer with a passion for building
 						beautiful, responsive websites. I have a background in web
 						development and have a passion for learning new technologies.
