@@ -1,13 +1,12 @@
-import Image from 'next/image';
-import { useState, useEffect } from 'react';
-import Link from 'next/link';
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { useRouter } from 'next/router';
-import icon from '../public/fabi_png_trans.png';
-import { useTheme } from 'next-themes';
-
+import Image from 'next/image'
+import { useState, useEffect } from 'react'
+import Link from 'next/link'
+import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { BsFillPersonLinesFill } from 'react-icons/bs'
+import { useRouter } from 'next/router'
+import icon from '../public/fabi_png_trans.png'
+import { useTheme } from 'next-themes'
 
 const Navbar = () => {
 	const [shadow, setShadow] = useState(false)
@@ -18,6 +17,7 @@ const Navbar = () => {
 	const { systemTheme, theme, setTheme } = useTheme()
 	const [mounted, setMounted] = useState(false)
 
+	// THEME SWITCHER LOGIC
 	useEffect(() => setMounted(true), [])
 
 	const renderThemeChanger = () => {
@@ -29,25 +29,33 @@ const Navbar = () => {
 			console.log('dark')
 			return (
 				<div className=' flex relative justify-center items-center '>
-				<button className='px-2 py-1 text-base' onClick={() => setTheme('light')}>
-					{' '}
-					Toggle Light Mode{' '}					
-				</button>
-			</div>
+					<button
+						className='px-2 py-1 text-base'
+						onClick={() => setTheme('light')}
+					>
+						{' '}
+						Toggle Light Mode{' '}
+					</button>
+				</div>
 			)
 		} else {
 			console.log('light')
 			return (
 				<div className=' flex relative justify-center items-center'>
-					<button className='px-2 py-1 text-base' onClick={() => setTheme('dark')}>
+					<button
+						className='px-2 py-1 text-base'
+						onClick={() => setTheme('dark')}
+					>
 						{' '}
-						Toggle Dark Mode{' '}					
+						Toggle Dark Mode{' '}
 					</button>
 				</div>
 			)
 		}
 	}
+	// END THEME SWITCHER LOGIC
 
+	// CUSTOM NAVBAR FOR DEFINED PATHS
 	useEffect(() => {
 		if (
 			router.asPath === '/studyBudz' ||
@@ -100,32 +108,32 @@ const Navbar = () => {
 							className='hidden md:flex flex-auto'
 						>
 							<Link href='/'>
-								<li className='ml-10 text-lg uppercase hover:border-b'>Home</li>
+								<li className='ml-10 text-lg uppercase hover:border-b hover:border-b-black '>Home</li>
 							</Link>
 							<Link href='/#about'>
-								<li className='ml-10 text-lg uppercase hover:border-b'>
+								<li className='ml-10 text-lg uppercase hover:border-b hover:border-b-black '>
 									About
 								</li>
 							</Link>
 							<Link href='/#skills'>
-								<li className='ml-10 text-lg uppercase hover:border-b'>
+								<li className='ml-10 text-lg uppercase hover:border-b hover:border-b-black '>
 									Skills
 								</li>
 							</Link>
 							<Link href='/#projects'>
-								<li className='ml-10 text-lg uppercase hover:border-b'>
+								<li className='ml-10 text-lg uppercase hover:border-b hover:border-b-black '>
 									Projects
 								</li>
 							</Link>
 							<Link href='/#contact'>
-								<li className='ml-10 mr-5 text-lg uppercase hover:border-b'>
+								<li className='ml-10 mr-5 text-lg uppercase hover:border-b hover:border-b-black '>
 									Contact
 								</li>
 							</Link>
 						</ul>
 						{/* Burger Menu */}
 						<div onClick={handleNav} className='md:hidden'>
-							<AiOutlineMenu size={25} />
+							<AiOutlineMenu size={25} className='dark:text-gray-800' />
 						</div>
 					</div>
 				</div>
@@ -139,7 +147,7 @@ const Navbar = () => {
 					<div
 						className={
 							nav
-								? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
+								? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w[45%] h-screen bg-[#ecf0f3] dark:bg-gray-800 p-10 ease-in duration-500'
 								: 'fixed left-[-100%] top-0  p-10 ease-in duration-500'
 						}
 					>
@@ -153,7 +161,7 @@ const Navbar = () => {
 								/>
 								<div
 									onClick={handleNav}
-									className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'
+									className='rounded-full shadow-lg  border-2 shadow-gray-400 p-3 cursor-pointer'
 								>
 									<AiOutlineClose />
 								</div>
@@ -193,24 +201,36 @@ const Navbar = () => {
 								</Link>
 							</ul>
 							<div className='pt-40'>
-								<p className='uppercase tracking-widest text-[#5651e5]'>
+								<p className='uppercase tracking-widest text-[#5651e5] dark:text-red-500'>
 									Let&apos;s Connect
 								</p>
 								<div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-									<div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-										<FaLinkedin />
-									</div>
-									<div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-										<FaGithub />
-									</div>
-									<div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+									<a
+										href='https://www.linkedin.com/in/fabian-deckmann-fjaervik-9349b9153/'
+										target='_blank'
+										rel='noopener noreferrer'
+									>
+										<div className='rounded-full shadow-lg  border-2 shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+											<FaLinkedin />
+										</div>
+									</a>
+									<a
+										href='https://github.com/ffjaervik'
+										target='_blank'
+										rel='noopener noreferrer'
+									>
+										<div className='rounded-full shadow-lg  border-2 shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+											<FaGithub />
+										</div>
+									</a>
+									<div className='rounded-full shadow-lg border-2 shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
 										<AiOutlineMail />
 									</div>
-									<div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-										<a href='https://drive.google.com/file/d/1XpKpuT9o4HraVlVNFbgt-y1Er_qE3i3M/view?usp=sharing'>
+									<a href='https://drive.google.com/file/d/1XpKpuT9o4HraVlVNFbgt-y1Er_qE3i3M/view?usp=sharing'>
+										<div className='rounded-full shadow-lg border-2 shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
 											<BsFillPersonLinesFill />
-										</a>
-									</div>
+										</div>
+									</a>
 								</div>
 							</div>
 						</div>

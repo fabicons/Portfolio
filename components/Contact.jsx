@@ -42,7 +42,7 @@ function Contact() {
 										target='_blank'
 										rel='noopener noreferrer'
 									>
-										<div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 dark:border-2 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+										<div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 border-2 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
 											<FaLinkedinIn />
 										</div>
 									</a>
@@ -51,11 +51,11 @@ function Contact() {
 										target='_blank'
 										rel='noopener noreferrer'
 									>
-										<div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 dark:border-2 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+										<div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 border-2 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
 											<FaGithub />
 										</div>
 									</a>
-									<div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 dark:border-2 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+									<div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 border-2 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
 										<AiOutlineMail />
 									</div>
 									<a
@@ -63,7 +63,7 @@ function Contact() {
 										target='_blank'
 										rel='noopener noreferrer'
 									>
-										<div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 dark:border-2 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+										<div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 border-2 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
 											<BsFillPersonLinesFill />
 										</div>
 									</a>
@@ -124,8 +124,10 @@ function Contact() {
 				<div className='flex justify-center py-12'>
 					<Link href='/'>
 						<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 dark:border-2'>
-							<HiOutlineChevronDoubleUp className='text-[#5651e5] dark:text-red-500 ' size={30} />
-							
+							<HiOutlineChevronDoubleUp
+								className='text-[#5651e5] dark:text-red-500 '
+								size={30}
+							/>
 						</div>
 					</Link>
 				</div>
