@@ -30,16 +30,6 @@ function studyBudz() {
 						Code Bootcamp. The students where given 1 week (Mon - Fri) to come
 						up with a working product that relating to the brief.
 					</p>
-					<button className='px-8 py-2 mt-4 mr-8 dark:shadow-gray-500'>
-						{' '}
-						<a
-							href='https://final-project-front-end-team-saunter.vercel.app/'
-							target='_blank'
-							rel='noreferrer noopener'
-						>
-							Demo
-						</a>
-					</button>
 					<button className='px-8 py-2 mt-4 dark:shadow-gray-500'>
 						{' '}
 						<a
