@@ -18,6 +18,8 @@ const Navbar = () => {
 	const [mounted, setMounted] = useState(false)
 
 	// THEME SWITCHER LOGIC
+	let dark = 'dark'
+	let light = 'light'
 	useEffect(() => setMounted(true), [])
 
 	const renderThemeChanger = () => {
@@ -25,13 +27,13 @@ const Navbar = () => {
 
 		const currentTheme = theme === 'system' ? systemTheme : theme
 
-		if (currentTheme === 'dark') {
+		if (currentTheme === dark) {
 			console.log('dark')
 			return (
 				<div className=' flex relative justify-center items-center '>
 					<button
 						className='px-2 py-1 text-base'
-						onClick={() => setTheme('light')}
+						onClick={() => setTheme(light)}
 					>
 						{' '}
 						Toggle Light Mode{' '}
@@ -44,7 +46,7 @@ const Navbar = () => {
 				<div className=' flex relative justify-center items-center'>
 					<button
 						className='px-2 py-1 text-base'
-						onClick={() => setTheme('dark')}
+						onClick={() => setTheme(dark)}
 					>
 						{' '}
 						Toggle Dark Mode{' '}
@@ -64,11 +66,14 @@ const Navbar = () => {
 		) {
 			setNavBg('transparent')
 			setLinkColor('#ecf0f3')
+		} else if (theme == dark) {
+			setNavBg('#1f2937')
+			setLinkColor('#ecf0f3')
 		} else {
 			setNavBg('#ecf0f3')
 			setLinkColor('#1f2937')
 		}
-	}, [router])
+	}, [router, theme])
 
 	const handleNav = () => {
 		setNav(!nav)
@@ -91,7 +96,7 @@ const Navbar = () => {
 				style={{ backgroundColor: `${navbg}` }}
 				className={
 					shadow
-						? 'fixed w-full h-24 shadow-xl z-[100] transition-all duration-300 ease-in '
+						? 'fixed w-full h-24 shadow-xl z-[100] transition-all duration-300 ease-in dark:shadow-lg dark:shadow-gray-400 '
 						: 'fixed w-full h-24 z-[100] '
 				}
 			>
@@ -108,32 +113,34 @@ const Navbar = () => {
 							className='hidden md:flex flex-auto'
 						>
 							<Link href='/'>
-								<li className='ml-10 text-lg uppercase hover:border-b hover:border-b-black '>Home</li>
+								<li className='ml-10 text-lg uppercase hover:border-b hover:border-b-black dark:hover:border-b-[#ecf0f3] '>
+									Home
+								</li>
 							</Link>
 							<Link href='/#about'>
-								<li className='ml-10 text-lg uppercase hover:border-b hover:border-b-black '>
+								<li className='ml-10 text-lg uppercase hover:border-b hover:border-b-black dark:hover:border-b-[#ecf0f3] '>
 									About
 								</li>
 							</Link>
 							<Link href='/#skills'>
-								<li className='ml-10 text-lg uppercase hover:border-b hover:border-b-black '>
+								<li className='ml-10 text-lg uppercase hover:border-b hover:border-b-black dark:hover:border-b-[#ecf0f3] '>
 									Skills
 								</li>
 							</Link>
 							<Link href='/#projects'>
-								<li className='ml-10 text-lg uppercase hover:border-b hover:border-b-black '>
+								<li className='ml-10 text-lg uppercase hover:border-b hover:border-b-black dark:hover:border-b-[#ecf0f3] '>
 									Projects
 								</li>
 							</Link>
 							<Link href='/#contact'>
-								<li className='ml-10 mr-5 text-lg uppercase hover:border-b hover:border-b-black '>
+								<li className='ml-10 mr-5 text-lg uppercase hover:border-b hover:border-b-black dark:hover:border-b-[#ecf0f3] '>
 									Contact
 								</li>
 							</Link>
 						</ul>
 						{/* Burger Menu */}
 						<div onClick={handleNav} className='md:hidden'>
-							<AiOutlineMenu size={25} className='dark:text-gray-800' />
+							<AiOutlineMenu size={25} className='dark:text-[#ecf0f3]' />
 						</div>
 					</div>
 				</div>
