@@ -11,17 +11,17 @@ function Contact() {
 	return (
 		<div id='contact' className='w-full lg:h-screen'>
 			<div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
-				<p className='text-xl tracking-widest uppercase text-[#5651e5]'>
+				<p className='text-xl tracking-widest uppercase text-[#5651e5] dark:text-red-500'>
 					Contact
 				</p>
 				<h2 className='py-4'>Get in Touch</h2>
 				<div className='grid lg:grid-cols-5 gap-8'>
 					{/* left */}
-					<div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
+					<div className='col-span-3 lg:col-span-2 w-full h-full shadow-lg dark:border-2 shadow-gray-400 rounded-xl p-4'>
 						<div className='lg:p-4 h-full'>
 							<div>
 								<Image
-									className='rounded-xl hover-scale-105 ease-in duration-300'
+									className='rounded-lg hover-scale-105 ease-in duration-300'
 									src={ContactImg}
 									alt='/'
 								/>
@@ -42,7 +42,7 @@ function Contact() {
 										target='_blank'
 										rel='noopener noreferrer'
 									>
-										<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+										<div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 border-2 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
 											<FaLinkedinIn />
 										</div>
 									</a>
@@ -51,11 +51,11 @@ function Contact() {
 										target='_blank'
 										rel='noopener noreferrer'
 									>
-										<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+										<div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 border-2 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
 											<FaGithub />
 										</div>
 									</a>
-									<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+									<div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 border-2 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
 										<AiOutlineMail />
 									</div>
 									<a
@@ -63,7 +63,7 @@ function Contact() {
 										target='_blank'
 										rel='noopener noreferrer'
 									>
-										<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+										<div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 border-2 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
 											<BsFillPersonLinesFill />
 										</div>
 									</a>
@@ -72,7 +72,7 @@ function Contact() {
 						</div>
 					</div>
 					{/* right */}
-					<div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
+					<div className='col-span-3 w-full h-auto shadow-lg shadow-gray-400 border-2 rounded-xl lg:p-4'>
 						<div className='p-4'>
 							<form>
 								<div className='grid md:grid-cols-2 gap-4 w-full py-2'>
@@ -114,17 +114,20 @@ function Contact() {
 										rows='10'
 									/>
 								</div>
-								<button className='w-full p-4 text-gray-100 mt-4'>
+								<button className='w-full p-4 text-gray-100 mt-4 dark:shadow-md dark:shadow-gray-300'>
 									Send Message
 								</button>
 							</form>
 						</div>
 					</div>
 				</div>
-				<div className='flex- justify-center py-12'>
+				<div className='flex justify-center py-12'>
 					<Link href='/'>
-						<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-							<HiOutlineChevronDoubleUp className='text-[#5651e5]' size={30} />
+						<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 dark:border-2'>
+							<HiOutlineChevronDoubleUp
+								className='text-[#5651e5] dark:text-red-500 '
+								size={30}
+							/>
 						</div>
 					</Link>
 				</div>
