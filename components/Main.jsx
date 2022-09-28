@@ -1,7 +1,7 @@
-import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import TypeEffect from './TypeEffect.jsx';
+import { AiOutlineMail } from 'react-icons/ai'
+import { BsFillPersonLinesFill } from 'react-icons/bs'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import TypeEffect from './TypeEffect.jsx'
 
 const Main = () => {
 	return (
@@ -15,7 +15,7 @@ const Main = () => {
 						Hi, I&apos;m{' '}
 						<span className='text-[#5651e5] dark:text-red-500'>Fabian.</span>
 					</h1>
-					<TypeEffect/>
+					<TypeEffect />
 					<p className='py-4 text-gray-600 dark:text-gray-300 max-w-[70%] m-auto '>
 						I&apos;m a full-stack developer with a passion for building
 						beautiful, responsive websites. I have a background in web

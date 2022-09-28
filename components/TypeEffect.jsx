@@ -7,9 +7,10 @@ export default function TypeEffect() {
 				<Typewriter
 					options={{
 						strings: [
-							'A Full-Stack Developer',
-							'A Software Engineer',
-							"I'm breaking into tech",
+							'A Web Developer.',
+							'A Full-Stack Developer.',
+							'A Software Engineer.',
+							'Nice to meet you.'
 						],
 						autoStart: true,
 						loop: true,
