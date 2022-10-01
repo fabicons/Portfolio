@@ -25,17 +25,17 @@ function saunter() {
 				<div className='col-span-4'>
 					<p className='mb-1 dark:text-gray-300'>Saunter</p>
 					<h2 className='mb-4 '>Overview</h2>
-					<p className='dark:text-gray-300'>
-						Saunter is the result of the final project of the School of Code
-						Bootcamp. The cohort was divided in teams of 6 in order to recreate
-						a developer team. Following the Agile methodology, we worked in
+					<p className='dark:text-gray-300 text-xl'>
+						Saunter is the result of my final project at the School of Code
+						Bootcamp. The cohort was divided into teams of 6 to recreate
+						a working developer team. Following the Agile methodology, we worked in
 						1-week sprints, with daily stand-ups and retrospectives. The project
 						was to create a full-stack web application.
 					</p>
-					<p className='dark:text-gray-300'>
+					<p className='dark:text-gray-300 text-xl'>
 						As a result Saunter was created. It is a travelling app that aims to
 						aid solo travellers in finding new places to visit and meet new
-						people.{' '}
+						people. Follow the links below to check out our demo version & the Github repository.{' '}
 					</p>
 					<button className='px-8 py-2 mt-4 mr-8 dark:shadow-gray-500'>
 						{' '}
@@ -77,6 +77,18 @@ function saunter() {
 							</p>
 							<p className='py-2 flex items-center'>
 								<RiRadioButtonFill className='pr-1' /> Chakra UI
+							</p>
+							<p className='py-2 flex items-center'>
+								<RiRadioButtonFill className='pr-1' /> Auth0
+							</p>
+							<p className='py-2 flex items-center'>
+								<RiRadioButtonFill className='pr-1' /> Jest
+							</p>
+							<p className='py-2 flex items-center'>
+								<RiRadioButtonFill className='pr-1' /> Supertest
+							</p>
+							<p className='py-2 flex items-center'>
+								<RiRadioButtonFill className='pr-1' /> Cypress
 							</p>
 						</div>
 					</div>

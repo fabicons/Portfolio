@@ -10,18 +10,19 @@ const About = () => {
 					<p className='uppercase text-xl tracking-widest text-[#5651e5] dark:text-red-500'>
 						About
 					</p>
-					<h2 className='py-4'>Who I am. </h2>
-					<p className='py-2 text-gray-600 dark:text-gray-400'>
+					<h2 className='py-4'>Who am I? </h2>
+					<p className='py-2 text-gray-600 dark:text-gray-400 text-xl '>
 						I&apos;m an advertising & public relations graduate with experience
 						as a sales manager in the tech industry.
+						
 					</p>
-					<p className='py-2 text-gray-600 dark:text-gray-400'>
+					<p className='py-2 text-gray-600 dark:text-gray-400 text-xl'>
 						{' '}
 						I discoverd my passion for coding during the pandemic and decided to
 						change my career path. I&apos;m hungry for knowledge and currently
 						improving my skills in web development.
 					</p>
-					<p className='py-2 text-gray-600 dark:text-gray-400'>
+					<p className='py-2 text-gray-600 dark:text-gray-400 text-xl'>
 						Recently, I was humbled to have been selected from 3000 candidates
 						to be one of the 130 people who graduated from the{' '}
 						<a
@@ -32,7 +33,7 @@ const About = () => {
 						>
 							School of Code
 						</a>{' '}
-						(SoC) 16-week full-stack bootcamp. We were taught by industry
+						(SoC) 16-week full-stack bootcamp. The course is taught by industry
 						experts and mentored by experienced developers. It was a challenging
 						and rewarding experience that has given me the confidence to pursue
 						a career as a development.
