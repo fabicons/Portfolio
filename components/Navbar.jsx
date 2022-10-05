@@ -160,12 +160,7 @@ const Navbar = () => {
 					>
 						<div>
 							<div className='flex w-full items-center justify-between'>
-								<Image
-									src={icon}
-									width='60'
-									height='60'
-									alt='/'
-								/>
+								<Image src={icon} width='60' height='60' alt='/' />
 								<div
 									onClick={handleNav}
 									className='rounded-full shadow-lg  border-2 shadow-gray-400 p-3 cursor-pointer'
@@ -233,7 +228,11 @@ const Navbar = () => {
 									<div className='rounded-full shadow-lg border-2 shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
 										<AiOutlineMail />
 									</div>
-									<a href='https://drive.google.com/file/d/1XpKpuT9o4HraVlVNFbgt-y1Er_qE3i3M/view?usp=sharing'>
+									<a
+										href='https://drive.google.com/file/d/1ag2x1RbNEG0N70TmSuFo3eJpg7Nd5Vi_/view?usp=sharing'
+										target='_blank'
+										rel='noopener noreferrer'
+									>
 										<div className='rounded-full shadow-lg border-2 shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
 											<BsFillPersonLinesFill />
 										</div>

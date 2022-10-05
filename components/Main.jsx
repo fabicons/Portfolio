@@ -44,7 +44,7 @@ const Main = () => {
 							<AiOutlineMail />
 						</div>
 						<a
-							href='https://drive.google.com/file/d/1XpKpuT9o4HraVlVNFbgt-y1Er_qE3i3M/view?usp=sharing'
+							href='https://drive.google.com/file/d/1ag2x1RbNEG0N70TmSuFo3eJpg7Nd5Vi_/view?usp=sharing'
 							target='_blank'
 							rel='noopener noreferrer'
 						>
