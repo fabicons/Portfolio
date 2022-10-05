@@ -161,7 +161,7 @@ const Navbar = () => {
 						<div>
 							<div className='flex w-full items-center justify-between'>
 								<Image
-									src='/../public/fabi_png_trans.png'
+									src={icon}
 									width='60'
 									height='60'
 									alt='/'
