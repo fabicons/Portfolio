@@ -2,6 +2,7 @@ import { AiOutlineMail } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import TypeEffect from './TypeEffect.jsx'
+import Link from 'next/link'
 
 const Main = () => {
 	return (
@@ -40,9 +41,11 @@ const Main = () => {
 								<FaGithub />
 							</div>
 						</a>
-						<div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 border-2 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-							<AiOutlineMail />
-						</div>
+						<Link href='/#contact'>
+							<div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 border-2 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+								<AiOutlineMail />
+							</div>
+						</Link>
 						<a
 							href='https://drive.google.com/file/d/1ag2x1RbNEG0N70TmSuFo3eJpg7Nd5Vi_/view?usp=sharing'
 							target='_blank'

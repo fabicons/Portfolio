@@ -55,9 +55,7 @@ function Contact() {
 											<FaGithub />
 										</div>
 									</a>
-									<div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 border-2 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-										<AiOutlineMail />
-									</div>
+									
 									<a
 										href='https://drive.google.com/file/d/1ag2x1RbNEG0N70TmSuFo3eJpg7Nd5Vi_/view?usp=sharing'
 										target='_blank'
@@ -114,7 +112,10 @@ function Contact() {
 										rows='10'
 									/>
 								</div>
-								<button className='w-full p-4 text-gray-100 mt-4 dark:shadow-md dark:shadow-gray-300'>
+								<button
+									className='w-full p-4 text-gray-100 mt-4 dark:shadow-md dark:shadow-gray-300'
+									
+								>
 									Send Message
 								</button>
 							</form>
@@ -133,6 +134,7 @@ function Contact() {
 				</div>
 			</div>
 		</div>
+		
 	)
 }
 
