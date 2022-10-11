@@ -32,7 +32,7 @@ const Navbar = () => {
 			return (
 				<div className=' flex relative justify-center items-center '>
 					<button
-						className='px-2 py-1 text-base'
+						className='px-2 py-1 text-base '
 						onClick={() => setTheme(light)}
 					>
 						{' '}
@@ -45,7 +45,7 @@ const Navbar = () => {
 			return (
 				<div className=' flex relative justify-center items-center'>
 					<button
-						className='px-2 py-1 text-base'
+						className='px-2 py-1 text-base text-white'
 						onClick={() => setTheme(dark)}
 					>
 						{' '}
