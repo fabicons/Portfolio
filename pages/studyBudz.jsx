@@ -36,7 +36,7 @@ function studyBudz() {
 						<em> for</em> students, to improve their skills during their own
 						time. Follow the links below to check out the Github repository.
 					</p>
-					<button className='px-8 py-2 mt-4 dark:shadow-gray-500'>
+					<button className='px-8 py-2 mt-4 dark:shadow-gray-500 text-white'>
 						{' '}
 						<a
 							href='https://github.com/ffjaervik/StudyBudz_Front-end'

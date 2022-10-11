@@ -37,7 +37,7 @@ function saunter() {
 						aid solo travellers in finding new places to visit and meet new
 						people. Follow the links below to check out our demo version & the Github repository.{' '}
 					</p>
-					<button className='px-8 py-2 mt-4 mr-8 dark:shadow-gray-500'>
+					<button className='px-8 py-2 mt-4 mr-8 dark:shadow-gray-500 text-white'>
 						{' '}
 						<a
 							href='https://final-project-front-end-team-saunter.vercel.app/'
@@ -47,7 +47,7 @@ function saunter() {
 							Demo
 						</a>
 					</button>
-					<button className='px-8 py-2 mt-4 dark:shadow-gray-500'>
+					<button className='px-8 py-2 mt-4 dark:shadow-gray-500 text-white'>
 						{' '}
 						<a
 							href='https://github.com/ffjaervik/saunter-front-end'

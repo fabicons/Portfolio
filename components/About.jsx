@@ -36,10 +36,10 @@ const About = () => {
 						(SoC) 16-week full-stack bootcamp. The course is taught by industry
 						experts and mentored by experienced developers. It was a challenging
 						and rewarding experience that has given me the confidence to pursue
-						a career as a development.
+						a career as a developer.
 					</p>
 					<p className='py-2 text-gray-600 dark:text-gray-400 text-xl'>
-						When I&apos;m not coding, you&apos;ll probably find me playing blues/rock guitar, strolling in the meadows and learning about the local flora and fauna. 
+						When I&apos;m not coding, you&apos;ll probably find me playing blues/rock guitar, strolling in the meadows while learning about the local flora and fauna or cooking up my next biggest pot of &quot;chili con carne&quot;. 
 					</p>
 				</div>
 				<div className='w-full h-auto m-auto shadow-xl shadow-gray-400 dark:shadow-gray-600 dark:bg-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
