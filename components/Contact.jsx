@@ -72,13 +72,15 @@ function Contact() {
 					{/* right */}
 					<div className='col-span-3 w-full h-auto shadow-lg shadow-gray-400 border-2 rounded-xl lg:p-4'>
 						<div className='p-4'>
-							<form>
+							<form action = "https://formsubmit.co/fabianfjaervik@gmail.com" method="POST">
 								<div className='grid md:grid-cols-2 gap-4 w-full py-2'>
 									<div className='flex flex-col'>
 										<label className='uppercase text-sm py-2'>Name</label>
 										<input
 											className='border-2 rounded-lg p-3 flex border-gray-300'
 											type='text'
+											name='name'
+											required
 										/>
 									</div>
 									<div className='flex flex-col'>
@@ -88,6 +90,7 @@ function Contact() {
 										<input
 											className='border-2 rounded-lg p-3 flex border-gray-300'
 											type='text'
+											name='phone'
 										/>
 									</div>
 								</div>
@@ -96,6 +99,8 @@ function Contact() {
 									<input
 										className='border-2 rounded-lg p-3 flex border-gray-300'
 										type='email'
+										name='email'
+										required
 									/>
 								</div>
 								<div className='flex flex-col py-2'>
@@ -103,6 +108,7 @@ function Contact() {
 									<input
 										className='border-2 rounded-lg p-3 flex border-gray-300'
 										type='text'
+										name='subject'
 									/>
 								</div>
 								<div className='flex flex-col py-2'>
@@ -110,6 +116,7 @@ function Contact() {
 									<textarea
 										className='border-2 rounded-lg p-3 border-gray-300'
 										rows='10'
+										name='message'
 									/>
 								</div>
 								<button
