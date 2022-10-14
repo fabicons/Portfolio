@@ -55,7 +55,7 @@ function Contact() {
 											<FaGithub />
 										</div>
 									</a>
-									
+
 									<a
 										href='https://drive.google.com/file/d/1ag2x1RbNEG0N70TmSuFo3eJpg7Nd5Vi_/view?usp=sharing'
 										target='_blank'
@@ -72,7 +72,10 @@ function Contact() {
 					{/* right */}
 					<div className='col-span-3 w-full h-auto shadow-lg shadow-gray-400 border-2 rounded-xl lg:p-4'>
 						<div className='p-4'>
-							<form action = "https://formsubmit.co/fabianfjaervik@gmail.com" method="POST">
+							<form
+								action='https://formsubmit.co/fabianfjaervik@gmail.com'
+								method='POST'
+							>
 								<div className='grid md:grid-cols-2 gap-4 w-full py-2'>
 									<div className='flex flex-col'>
 										<label className='uppercase text-sm py-2'>Name</label>
@@ -119,11 +122,9 @@ function Contact() {
 										name='message'
 									/>
 								</div>
-								<button
-									className='w-full p-4 text-gray-100 mt-4 dark:shadow-md dark:shadow-gray-300'
-								>
+								<input type="hidden" name="_next" value ="https://portfolio-practice-six.vercel.app/" />
+								<button className='w-full p-4 text-gray-100 mt-4 dark:shadow-md dark:shadow-gray-300'>
 									Send Message
-									
 								</button>
 							</form>
 						</div>
@@ -141,7 +142,6 @@ function Contact() {
 				</div>
 			</div>
 		</div>
-		
 	)
 }
 
