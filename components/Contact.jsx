@@ -121,9 +121,9 @@ function Contact() {
 								</div>
 								<button
 									className='w-full p-4 text-gray-100 mt-4 dark:shadow-md dark:shadow-gray-300'
-									
 								>
 									Send Message
+									
 								</button>
 							</form>
 						</div>
