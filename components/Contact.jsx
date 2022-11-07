@@ -122,7 +122,7 @@ function Contact() {
 										name='message'
 									/>
 								</div>
-								<input type="hidden" name="_next" value ="https://portfolio-practice-six.vercel.app/thankYou" />
+								<input type="hidden" name="_next" value ="https://ffjaervik.vercel.app/thankYou" />
 								<button className='w-full p-4 text-gray-100 mt-4 dark:shadow-md dark:shadow-gray-300'>
 									Send Message
 								</button>
