@@ -47,7 +47,7 @@ const Main = () =>{
 							</div>
 						</Link>
 						<a
-							href='https://drive.google.com/file/d/1ag2x1RbNEG0N70TmSuFo3eJpg7Nd5Vi_/view?usp=sharing'
+							href='https://drive.google.com/file/d/1zMcmfWXUoIf9YAdXxXV0jhmvSkKZrufH/view?usp=sharing'
 							target='_blank'
 							rel='noopener noreferrer'
 						>
