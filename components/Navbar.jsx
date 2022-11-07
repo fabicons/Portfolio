@@ -18,6 +18,7 @@ const Navbar = () => {
 	const [mounted, setMounted] = useState(false)
 
 	// THEME SWITCHER LOGIC	let dark = 'dark'
+	let dark = 'dark'
 	let light = 'light'
 	useEffect(() => setMounted(true), [])
 
