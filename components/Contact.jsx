@@ -15,13 +15,13 @@ function Contact() {
 					Contact
 				</p>
 				<h2 className='py-4'>Get in Touch</h2>
-				<div className='grid lg:grid-cols-5 gap-8'>
+				<div className='grid gap-8 lg:grid-cols-5'>
 					{/* left */}
-					<div className='col-span-3 lg:col-span-2 w-full h-full shadow-lg dark:border-2 shadow-gray-400 rounded-xl p-4'>
-						<div className='lg:p-4 h-full'>
+					<div className='w-full h-full col-span-3 p-4 shadow-lg lg:col-span-2 dark:border-2 shadow-gray-400 rounded-xl'>
+						<div className='h-full lg:p-4'>
 							<div>
 								<Image
-									className='rounded-lg hover-scale-105 ease-in duration-300'
+									className='duration-300 ease-in rounded-lg hover-scale-105'
 									src={ContactImg}
 									alt='/'
 								/>
@@ -31,18 +31,18 @@ function Contact() {
 								<p>Front-End Developer</p>
 								<p>
 									I am available for freelance or full-time positions. Contact
-									me and let&apos;talk
+									me and let&apos;s talk
 								</p>
 							</div>
 							<div>
-								<p className='uppercase pt-8'>Connect With Me</p>
+								<p className='pt-8 uppercase'>Connect With Me</p>
 								<div className='flex items-center justify-between py-4'>
 									<a
 										href='https://www.linkedin.com/in/fabian-deckmann-fjaervik-9349b9153/'
 										target='_blank'
 										rel='noopener noreferrer'
 									>
-										<div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 border-2 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+										<div className='p-6 duration-300 ease-in border-2 rounded-full shadow-lg cursor-pointer shadow-gray-400 dark:shadow-gray-600 hover:scale-110'>
 											<FaLinkedinIn />
 										</div>
 									</a>
@@ -51,7 +51,7 @@ function Contact() {
 										target='_blank'
 										rel='noopener noreferrer'
 									>
-										<div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 border-2 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+										<div className='p-6 duration-300 ease-in border-2 rounded-full shadow-lg cursor-pointer shadow-gray-400 dark:shadow-gray-600 hover:scale-110'>
 											<FaGithub />
 										</div>
 									</a>
@@ -61,7 +61,7 @@ function Contact() {
 										target='_blank'
 										rel='noopener noreferrer'
 									>
-										<div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 border-2 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+										<div className='p-6 duration-300 ease-in border-2 rounded-full shadow-lg cursor-pointer shadow-gray-400 dark:shadow-gray-600 hover:scale-110'>
 											<BsFillPersonLinesFill />
 										</div>
 									</a>
@@ -70,60 +70,60 @@ function Contact() {
 						</div>
 					</div>
 					{/* right */}
-					<div className='col-span-3 w-full h-auto shadow-lg shadow-gray-400 border-2 rounded-xl lg:p-4'>
+					<div className='w-full h-auto col-span-3 border-2 shadow-lg shadow-gray-400 rounded-xl lg:p-4'>
 						<div className='p-4'>
 							<form
 								action='https://formsubmit.co/fabianfjaervik@gmail.com'
 								method='POST'
 							>
-								<div className='grid md:grid-cols-2 gap-4 w-full py-2'>
+								<div className='grid w-full gap-4 py-2 md:grid-cols-2'>
 									<div className='flex flex-col'>
-										<label className='uppercase text-sm py-2'>Name</label>
+										<label className='py-2 text-sm uppercase'>Name</label>
 										<input
-											className='border-2 rounded-lg p-3 flex border-gray-300'
+											className='flex p-3 border-2 border-gray-300 rounded-lg'
 											type='text'
 											name='name'
 											required
 										/>
 									</div>
 									<div className='flex flex-col'>
-										<label className='uppercase text-sm py-2'>
+										<label className='py-2 text-sm uppercase'>
 											Phone Number
 										</label>
 										<input
-											className='border-2 rounded-lg p-3 flex border-gray-300'
+											className='flex p-3 border-2 border-gray-300 rounded-lg'
 											type='text'
 											name='phone'
 										/>
 									</div>
 								</div>
 								<div className='flex flex-col py-2'>
-									<label className='uppercase text-sm py-2'>Email</label>
+									<label className='py-2 text-sm uppercase'>Email</label>
 									<input
-										className='border-2 rounded-lg p-3 flex border-gray-300'
+										className='flex p-3 border-2 border-gray-300 rounded-lg'
 										type='email'
 										name='email'
 										required
 									/>
 								</div>
 								<div className='flex flex-col py-2'>
-									<label className='uppercase text-sm py-2'>Subject</label>
+									<label className='py-2 text-sm uppercase'>Subject</label>
 									<input
-										className='border-2 rounded-lg p-3 flex border-gray-300'
+										className='flex p-3 border-2 border-gray-300 rounded-lg'
 										type='text'
 										name='subject'
 									/>
 								</div>
 								<div className='flex flex-col py-2'>
-									<label className='uppercase text-sm py-2'>Message</label>
+									<label className='py-2 text-sm uppercase'>Message</label>
 									<textarea
-										className='border-2 rounded-lg p-3 border-gray-300'
+										className='p-3 border-2 border-gray-300 rounded-lg'
 										rows='10'
 										name='message'
 									/>
 								</div>
 								<input type="hidden" name="_next" value ="https://ffjaervik.vercel.app/thankYou" />
-								<button className='w-full p-4 text-gray-100 mt-4 dark:shadow-md dark:shadow-gray-300'>
+								<button className='w-full p-4 mt-4 text-gray-100 dark:shadow-md dark:shadow-gray-300'>
 									Send Message
 								</button>
 							</form>
@@ -132,7 +132,7 @@ function Contact() {
 				</div>
 				<div className='flex justify-center py-12'>
 					<Link href='/'>
-						<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 dark:border-2'>
+						<div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 dark:border-2'>
 							<HiOutlineChevronDoubleUp
 								className='text-[#5651e5] dark:text-red-500 '
 								size={30}
