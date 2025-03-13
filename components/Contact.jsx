@@ -38,7 +38,7 @@ function Contact() {
 								<p className='pt-8 uppercase'>Connect With Me</p>
 								<div className='flex items-center justify-between py-4'>
 									<a
-										href='https://www.linkedin.com/in/fabian-deckmann-fjaervik-9349b9153/'
+										href='https://www.linkedin.com/in/fabian-deckmann/'
 										target='_blank'
 										rel='noopener noreferrer'
 									>
@@ -47,7 +47,7 @@ function Contact() {
 										</div>
 									</a>
 									<a
-										href='https://github.com/ffjaervik'
+										href='https://github.com/fabicons'
 										target='_blank'
 										rel='noopener noreferrer'
 									>
