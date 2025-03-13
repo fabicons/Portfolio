@@ -24,7 +24,7 @@ const Main = () =>{
 					</p>
 					<div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
 						<a
-							href='https://www.linkedin.com/in/fabian-deckmann-fjaervik-9349b9153/'
+							href='https://www.linkedin.com/in/fabian-deckmann/'
 							target='_blank'
 							rel='noopener noreferrer'
 						>
@@ -33,7 +33,7 @@ const Main = () =>{
 							</div>
 						</a>
 						<a
-							href='https://github.com/ffjaervik'
+							href='https://github.com/fabicons'
 							target='_blank'
 							rel='noopener noreferrer'
 						>
